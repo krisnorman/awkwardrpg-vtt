@@ -1,0 +1,33 @@
+{
+    "id": "awkwardrpg",    
+    "title": "Awkward RPG",
+    "description": "The Awkward Bard's first RPG",
+    "authors": [
+        {
+            "name": "The Awkward Bard",
+            "url": "https://github.com/krisnorman"
+        }        
+    ],
+    "version": "0.01",    
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11"
+    },
+    "esmodules": [
+        "awkwardrpg.js",
+        "module/hooks/itemHook.js"
+    ],
+    "styles": [
+        "awkwardrpg.css"
+    ],
+    "packs": [
+
+    ],
+    "languages": [
+
+    ],
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "wounds",
+    "initiave": "1d6 + @speed"
+}
